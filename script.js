@@ -17,7 +17,7 @@ function render(){
   <div class="photo"><span class="badge">${p.discount}</span><img loading="lazy" src="${p.img}" alt="${p.brand} ${p.name}"></div>
   <div class="info"><div class="brand">${p.brand}</div><h3>${p.name}</h3><div class="condition">✓ ${p.condition}</div>
   <div class="price"><strong>₹${p.price.toLocaleString("en-IN")}</strong><span class="old">₹${p.old.toLocaleString("en-IN")}</span></div>
-  <a class="buy" target="_blank" href="https://wa.me/919999999999?text=${encodeURIComponent("Hi SastaKhojo, I am interested in "+p.brand+" "+p.name+" for ₹"+p.price.toLocaleString("en-IN"))}">Enquire on WhatsApp</a></div>
+  <a class="buy" target="_blank" href="https://wa.me/919934307099?text=${encodeURIComponent("Hi SastaKhojo, I am interested in "+p.brand+" "+p.name+" for ₹"+p.price.toLocaleString("en-IN"))}">Enquire on WhatsApp</a></div>
  </article>`).join("");
  document.getElementById("empty").hidden=list.length!==0;
 }
